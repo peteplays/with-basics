@@ -3,7 +3,9 @@
 ## Mac Setup
 - download and install [iterm](https://iterm2.com/downloads.html)
 - download and install [node](https://nodejs.org/en/download/)
-  - be careful to install the correct version(64 vs arm64)
+  - be careful to install the correct version
+    - 64 intel macs
+    - arm64 are M1 macs
 
 - open iterm and verify node is installed
   - `node -v`  should display the version of node that is installed
@@ -12,7 +14,8 @@
   - create a folder named `dev`
     - in iterm navigate to `/Users/<computer name>`
     - in iterm `mkdir dev`
-    - should create `/Users/<computer name>/dev`
+    - should create a folder named `dev`
+      - `/Users/<computer name>/dev`
 
 ## Download Repo
 - navigate to `dev` folder
@@ -21,7 +24,7 @@
 
 
 ## Running App
-- navigate into created folder
+- navigate to repo folder
   - `cd with-basics`
 - install dependencies
   - `npm install`
